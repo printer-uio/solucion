@@ -32,14 +32,15 @@
 /*col*/
 
 @media(max-width:575px){
+   /*Logo de la navegacion*/
     #tlogo{
         width: 40%;
     }
     #alquiler{
-        font-size: 40px;
+        font-size: 25px;
     }
     #impresoras{
-        font-size: 15px;
+        font-size: 10px;
     }
     #solucion{
         font-size: 10px;
@@ -73,8 +74,8 @@
     }
 
     .nos-img{
-        width: 100%;
-        height: 80%;
+        width: 60%;
+        height: 60%;
         border: solid 2px #f9f9f9;
         border-radius: 8%;    
         
