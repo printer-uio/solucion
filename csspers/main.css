@@ -132,17 +132,33 @@
         color: #d88922;  
     }
     .email{
-        width: 10%;
-        height: 10%;
+        width: 5%;
+        height: 5%;
         padding-left: 2%;
         padding-right: 2%;
     }
     /*pagina productos*/
     .p-img{
-        padding-left: 20%;
-        padding-right: 20%;
-        padding-top: 15%;
-        padding-bottom: 20%;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 22%;
+        padding-bottom: 22%;
+    }
+    .carousel-inner{
+        height: 450px;
+        width: 400px;
+    }
+    .carousel-inner img{
+        width: 100%;
+        max-height: 700px;
+
+    }
+    .promo-titulo{
+        background-color: rgba(223, 230, 233,1);
+    }
+    .promo-letra{
+        text-align: center;
+        color: #d88922;
     }
 }
 /*sm*/
