@@ -60,7 +60,7 @@
         top: 30%;
         left: 9%;        
     }
-    /* pajina nosotros*/ 
+    /*  nosotros*/ 
     .nosotros{
         padding-top: 20%;
         
@@ -87,7 +87,7 @@
         padding-top: 3%;
         padding-bottom: 5%;
     }
-    /*pagina por que*/
+    /*por que*/
     .porque{
         padding-top: 5%;
         padding-bottom: 5%;
@@ -125,11 +125,24 @@
         padding-top: 4%;
     }
     .whatsapp{
-        width: 10%;
-        height: 10%;
+        width: 12%;
+        height: 12%;
     }
     #contacto{
         color: #d88922;  
+    }
+    .email{
+        width: 10%;
+        height: 10%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    /*pagina productos*/
+    .p-img{
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 15%;
+        padding-bottom: 20%;
     }
 }
 /*sm*/
@@ -201,6 +214,52 @@
         font-size: 30px;
         color: #d88922;
     }
+     /*soluciones*/
+     .soluciones{
+        padding-top: 6%;
+        padding-bottom: 10%;
+    }
+    
+    #sol{
+        font-size: 30px;
+        color: #d88922;
+        text-align: center;
+    }
+    .sol-img{
+        width: 100%;
+        height:100%;
+        border: solid 2px #f9f9f9;
+        border-radius: 8%;        
+    }
+    .main-sol{
+        text-align: justify;
+        padding-top: 4%;
+        padding-right: 4%;
+    }
+    .pie{
+        background-color: rgba(223, 230, 233,0.5);
+        padding-top: 4%;
+    }
+    .whatsapp{
+        width: 10%;
+        height: 10%;
+    }
+    #contacto{
+        color: #d88922;  
+    }
+    .email{
+        width: 9%;
+        height: 9%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    /*pagina productos*/
+    .p-img{
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 5%;
+        padding-bottom: 10%;
+    }
     
     
 }
@@ -238,7 +297,7 @@
         top: 30%;
         left: 9%;        
     }
-     /* pajina nosotros*/
+     /*  nosotros*/
      .nosotros{
         padding-top: 5%;
     }
@@ -264,7 +323,7 @@
     .main-img{
         padding-top: 4%;
     } 
-    /*pagina por que*/
+    /* por que*/
     .porque{
         padding-top: 5%;
         padding-bottom: 5%;
@@ -278,6 +337,55 @@
     #por{
         font-size: 30px;
         color: #d88922;
+    }
+    /*soluciones*/
+    .soluciones{
+        padding-top: 3%;
+        padding-bottom: 10%;
+    }
+    
+    #sol{
+        font-size: 30px;
+        color: #d88922;
+        text-align: center;
+    }
+    .sol-img{
+        width: 100%;
+        height: 100%;
+        border: solid 2px #f9f9f9;
+        border-radius: 8%;           
+    }
+    .main-sol{
+        padding-top: 7%;
+        padding-right: 4%;
+        text-align: justify;
+    } 
+    .main-imgsol{
+        padding-top: 2%;
+    }
+    .pie{
+        background-color: rgba(223, 230, 233,0.5);
+        
+       
+    }
+    .whatsapp{
+        width: 8%;
+        height: 8%;
+    }
+    #contacto{
+        color: #d88922;  
+    }
+    .email{
+        width: 8%;
+        height: 8%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .p-img{
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 5%;
+        padding-bottom: 10%;
     }
     
     
@@ -361,7 +469,65 @@
     #por-text{
         font-size: 20px;
     }
+    /*soluciones*/
+    .soluciones{
+        padding-top: 3%;
+        padding-bottom: 10%;
+    }
     
+    #sol{
+        font-size: 40px;
+        color: #d88922;
+        text-align: center;
+    }
+    #sol-text{
+        font-size: 20px;
+    }
+    .sol-img{
+        width: 100%;
+        height: 100%;
+        border: solid 2px #f9f9f9;
+        border-radius: 8%;        
+    }
+    .main-sol{
+        text-align: justify;
+        padding-top: 4%;
+        padding-right: 4%;
+    } 
+    .pie{
+        background-color: rgba(223, 230, 233,0.5);
+        
+    }
+    .whatsapp{
+        width: 7%;
+        height: 7%;
+    }
+    #contacto{
+        color: #d88922;  
+    }
+    .email{
+        width: 7.5%;
+        height: 7.5%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    /*pagina productos*/
+    .p-img{
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+       
+    }
+    
+    .carousel-inner{
+        height: 700px;
+    }
+    .carousel-inner img{
+        width: 100%;
+        max-height: 700px;
+
+    }
 }
 
 
@@ -372,5 +538,11 @@
    border: solid 2px #d88922;
    color:#d88922;
    position:absolute;  
+    
+}
+
+/*Pagina Productos*/
+.p-img{
+    background: #d88922;
     
 }
