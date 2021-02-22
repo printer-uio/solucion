@@ -160,6 +160,39 @@
         text-align: center;
         color: #d88922;
     }
+    /*pagina soluciones*/
+    
+    .sol-titulo{
+        background-color: rgba(223, 230, 233,1);
+        text-align: center;
+        color: black;
+        font-size: 22px;
+        padding-top: 5%;
+        padding-bottom: 5%;        
+    }
+    .sol-letraini{
+        padding-top: 20%;
+        text-align: center;
+    }
+    .ser-alqui{
+        background-color: rgba(223, 230, 233,0.3);
+        padding-top: 4%;
+        
+    }
+    #alqui-titu{
+        text-align: center;
+        font-size: 18px;
+        color:black;
+        background-color: rgba(223, 230, 233,0.8);
+        padding: 2%;
+
+    }
+    #alqui-text{
+        text-align: justify;
+        
+    }
+    
+
 }
 /*sm*/
 @media(min-width:576px) and (max-width:767px){
