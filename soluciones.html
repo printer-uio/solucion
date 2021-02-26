@@ -8,14 +8,66 @@
     <!--enlasamos el archivo de boststrap y el CSS personal -->
     <link rel="stylesheet" type= "text/css "href="css/bootstrap.css">
     <link rel="stylesheet" href="csspers/main.css">
+    <!-- Scroll -->
+    <script src="js/smooth-scroll.min.js"></script>
+    <script>
+      smoothScroll.init({
+      selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
+      selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
+      speed: 2000, // Integer. How fast to complete the scroll in milliseconds
+      easing: 'easeInOutCubic', // Easing pattern to use
+      offset: 40, // Integer. How far to offset the scrolling anchor location in pixels
+      callback: function ( anchor, toggle ) {} // Function to run after scrolling
+      });
+    </script>
+    
     <!--para poner el icono en el titulo-->
     <link rel="shortcut icon" href="img/printer2.ico" type="image/x-icon">
+
 </head>
 <body>
-    <div class="container-fluid sol-ti-banda">
+    <div class="container-fluid">
         <div class="row">
             <div class="col">
-                <h3 class="fixed-top sol-titulo">
+                 <!--navegacion para que la navegacion este fija fixed-top-->
+                <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand "><img id="tlogo"src= "img/logo.png"></a>
+                    
+                        <button class="navbar-toggler cuadrado" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style=" border: solid 1px blue;">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="nav navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-scroll href="#sec2">Nosotros</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="soluciones.html" >Soluciones</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="productos.html">Productos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-scroll href="#sec3">Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                
+
+            </div>
+        </div>
+    </div>    
+    <div class="container-fluid sol-ti-banda">
+        <!--titulo y primeras palabras-->
+        <div class="row" id="ps-inicio">
+            <div class="col">
+                <h3 class="sol-titulo">
                     Bienvenidos al Centro de Soluciones
                 </h3>
             </div>            
@@ -25,24 +77,44 @@
                 <p class="sol-letraini">Nuestras Soluciones brindan múltiples beneficios para hacer de tus archivos una impresión perfecta.</p>
             </div>
         </div>
-        <div class="row">
+        <!--dibujos de inicio-->
+        <div class="row sol-img-bg">
+            <div class="col-12"><img class="pag-sol-img" src="img/alquiler.png" alt="logo"></div>
+            <div class="col-8 sol-boton"><a data-scroll href="#ps-sec1">Servicio de Alquiler</a></div>
+            <div class="col-12"><img class="pag-sol-img" src="img/escaneo.png" alt="logo"></div>
+            <div class="col-8 sol-boton"><a data-scroll href="#ps-sec2">Servicio de Escaneo</a></div>
+            <div class="col-12"><img class="pag-sol-img" src="img/fotocopiado.png" alt="logo"></div>
+            <div class="col-8 sol-boton"><a data-scroll href="#ps-sec3">Servicio de Fotocopiado</a></div>
+
+        </div>
+        <div class="row" id="ps-sec1">
             <div class="col-12 col-sm-7 ser-alqui">
-                <h3 id="alqui-titu">Servicio de Alquiler de impresoras y Multifuncionales Láser A4</h3>
-                <p id="alqui-text"><br>¿A quién va dirigido? <br>
+                <h3 class="alqui-titu">Servicio de Alquiler de impresoras y Multifuncionales Láser A4</h3>
+                <p class="alqui-text"><br>¿A quién va dirigido? <br>
                     Dirigido a empresas u organizaciones que requieren imprimir documentos por tiempo limitado, Por ejemplo: Para eventos específicos como Ferias, Campañas, Presentaciones, Lanzamientos, etc…  que duran pocas horas, días o meses y no requieren comprar un equipo, debido a su alto costo.<br>
                     Para Compañías que prestan servicios de Outsourcing de Impresión y no disponen de suficientes impresoras para cumplir con sus contratos adjudicados, ya sea porque su embarque de productos importados está demorado o porque no existe disponibilidad en el canal de mayoristas y desean evitar multas o sanciones hasta que venga definitivamente su stock.<br>
                     Empresas en general que requieren de una impresora de uso temporal o emergente. Cuando su impresora de oficina está en reparación o mantenimiento correctivo y no pueden suspender las actividades cotidianas.
-                </p>
-                <h3 id="alqui-titu">Servicio de Impresión y/o copiado láser de Documentos monocromáticos A4</h3>
-                <p id="alqui-text"><br>Muy útil para Empresas u Organizaciones que requieren imprimir o duplicar documentos monocromáticos en formato A4, cuyos volúmenes de impresión sean mayores a los habituales dentro de sus operaciones normales y no dispongan de equipos de alta velocidad y excelente calidad.<br>
-                    Contamos con un amplio stock de impresoras de tecnología Láser de alta velocidad y excelente calidad de impresión para satisfacer a cada cliente sus necesidades particulares.</p>
-                <h3 id="alqui-titu">Servicio de Escaneo de documentos</h3>
-                <p id="alqui-text"><br>Contamos con equipos de escaneo de documentos que permiten transformar a formato digital los documentos físicos que las Empresas e Instituciones tienen almacenados en sus oficinas o bodegas, ocupando gran espacio, expuestos a ambientes inadecuados y con riesgo a deterioro o pérdida de información con el paso del tiempo.<br>Printer Uio pone a su disposición el Servicio de escaneo de documentos, una solución diseñada para cada cliente que desee conservar sus documentos en formato digital.</p>
+                </p>            
+               
             </div>
-            <div class="col-12 col-sm-5 sol-main-img">
-                <img id="imgsol"class="sol-img" src="img/Oficina.jpg" alt="logo">
+            
+        </div>
+       
+        <div class="row" id="ps-sec2">
+            <div class="col-12 col-sm-7 ser-alqui">
+                <h3 class="alqui-titu">Servicio de Escaneo de documentos</h3>
+                <p class="alqui-text"><br>Contamos con equipos de escaneo de documentos que permiten transformar a formato digital los documentos físicos que las Empresas e Instituciones tienen almacenados en sus oficinas o bodegas, ocupando gran espacio, expuestos a ambientes inadecuados y con riesgo a deterioro o pérdida de información con el paso del tiempo.<br>Printer Uio pone a su disposición el Servicio de escaneo de documentos, una solución diseñada para cada cliente que desee conservar sus documentos en formato digital.</p>
             </div>
 
+        </div>
+        <div class="row" id="ps-sec3">
+            <div class="col-12 col-sm-7 ser-alqui">
+                <h3 class="alqui-titu">Servicio de Impresión y/o copiado láser de Documentos monocromáticos A4</h3>
+                <p class="alqui-text"><br>Muy útil para Empresas u Organizaciones que requieren imprimir o duplicar documentos monocromáticos en formato A4, cuyos volúmenes de impresión sean mayores a los habituales dentro de sus operaciones normales y no dispongan de equipos de alta velocidad y excelente calidad.<br>
+                    Contamos con un amplio stock de impresoras de tecnología Láser de alta velocidad y excelente calidad de impresión para satisfacer a cada cliente sus necesidades particulares.
+                </p>
+                
+            </div>
         </div>
         
         

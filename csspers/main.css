@@ -167,19 +167,50 @@
         text-align: center;
         color: black;
         font-size: 22px;
-        padding-top: 5%;
-        padding-bottom: 5%;        
+        padding-top: 20%;
+        padding-bottom: 5%;
+            
     }
     .sol-letraini{
-        padding-top: 20%;
+        padding-top: 2%;
         text-align: center;
     }
+    .sol-img-bg{
+        background-color: #d6edf6;
+        padding-top: 5%;
+        justify-content: center;
+        
+        
+        
+    }
+    .pag-sol-img{
+        width: 100%;
+        height: 100%;
+        border: solid 2px #f9f9f9;
+        border-radius: 50%;
+    }
+    .sol-boton{
+        border: solid 2px rgb(26, 24, 24,0.2);
+        text-align: center;
+        margin-bottom: 5%;
+        margin-top: 5%;       
+    }
+    .sol-img-bg .sol-boton:hover{
+        border: solid 2px #d88922;
+        color: #d88922;
+
+    }
+    .sol-boton a{
+        text-decoration: none;
+    }
+
+    /* texto de las soluciones*/
     .ser-alqui{
         background-color: rgba(223, 230, 233,0.3);
         padding-top: 4%;
         
     }
-    #alqui-titu{
+    .alqui-titu{
         text-align: center;
         font-size: 18px;
         color:black;
@@ -187,9 +218,20 @@
         padding: 2%;
 
     }
-    #alqui-text{
+    .alqui-text{
         text-align: justify;
+        padding-left: 5%;
+        padding-right: 5%;
         
+    }
+    #ps-sec1{
+        background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    }
+    #ps-sec2{
+        background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+    }
+    #ps-sec3{
+        background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
     }
     
 
