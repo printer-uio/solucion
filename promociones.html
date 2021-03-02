@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <!--enlasamos el archivo de boststrap y el CSS personal -->
+    <link rel="stylesheet" type= "text/css "href="css/bootstrap.css">
+    <link rel="stylesheet" href="csspers/main.css">
+    <!--para poner el icono en el titulo-->
+    <link rel="shortcut icon" href="img/printer2.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container promo-titulo">
+        <div class="row">
+            <div class="col">
+                <h3 class="promo-letra">Promociones</h3>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="container-fluid p-img">
+        <div class="row">
+            <div class="col">
+                <div id="promo" class="carousel slide" data-ride="carousel">
+                    <!--indicadores-->
+                    <ul class="carousel-indicators">
+                        <li data-target="promo" data-slide-to="0" class="active"></li>
+                        <li data-target="promo" data-slide-to="1" ></li>
+                        <li data-target="promo" data-slide-to="2" ></li>
+                        <li data-target="promo" data-slide-to="3" ></li>
+                        <li data-target="promo" data-slide-to="4" ></li>
+            
+                    </ul>
+            
+                    <!--imagenes-->
+                    <div class="carousel-inner">
+                        
+                        <div class="carousel-item active"><img src="img/promo/p1102.jpg" class="img-fluid img-thumbnail">
+                        </div>
+                        <div class="carousel-item"><img src="img/promo/p1606.jpg" class="img-fluid img-thumbnail">
+                        </div>
+                        <div class="carousel-item"><img src="img/promo/m127.jpg" class="img-fluid img-thumbnail">
+                        </div>
+                        <div class="carousel-item"><img src="img/promo/p2035.jpg" class="img-fluid img-thumbnail">
+                        </div>
+                        <div class="carousel-item"><img src="img/promo/lbp3000.jpg" class="img-fluid img-thumbnail">
+                        </div>           
+                        
+            
+                    </div>
+            
+            
+                    <!--controles < > -->
+                    <a href="#promo" class="carousel-control-prev" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+                    <a href="#promo" class="carousel-control-next" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+            
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </div>
+  
+
+
+
+
+
+
+
+    <!--son los archivos que se necesitan para que funcione bootstrap sin internet-->
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    
+</body>
+</html>
