@@ -42,9 +42,9 @@
     font-size: 7.5px;
   }
   .descubre {
-    top: 95%;
+    top: 100%;
     left: 9%;
-    font-size: 8.5px;
+    font-size: 7px;
   }
   .present {
     width: 100%;
@@ -59,10 +59,13 @@
   .nosotros {
     padding-top: 20%;
     padding-bottom: 10%;
+    padding-right: 12%;
+    font-family: 'Roboto', sans-serif;
   }
 
   .main-nos {
     text-align: justify;
+    
   }
   #nos {
     font-size: 15px;
@@ -74,19 +77,21 @@
   #nos-text{
     text-align:left;
     padding-left: 1px;
-    font-size: 13px;
+    font-size: 9px;
+    font-weight: 595;
   }
   .descubre1{
     border: solid 2px #d88922;
     border-radius: 20px;
-    font-size: 12px;
+    font-size: 7px;
     color: #d88922;
     
   }
 
   .nos-img {
-    width: 110%;
-    height: 90%;
+    width: 150%;
+    height: 100%;
+
     /*border: solid 2px #f9f9f9;*/
     /*border-radius: 8%;*/
   }
@@ -394,23 +399,29 @@
   #sol-text{
     font-size: 20px;
   }
+  /*pie*/
   .pie {
-    background-color: rgba(223, 230, 233, 0.5);
-    padding-top: 4%;
+    height: 40px;
+    background-color: black;
+       
   }
+  
   .whatsapp {
-    width: 10%;
-    height: 10%;
+    width: 40px;
+    height: 40px;
   }
   #contacto {
-    color: #d88922;
+    color: white;
+    font-size: 10px;
+    padding-top: 10px;
+    padding-left: 5px;
   }
-  .email {
-    width: 9%;
-    height: 9%;
+  /*.email {
+    width: 5%;
+    height: 5%;
     padding-left: 2%;
     padding-right: 2%;
-  }
+  }*/
   /*pagina promociones*/
   .p-img {
     padding-left: 20%;
@@ -558,6 +569,7 @@
   /*  nosotros*/
   .nosotros {
     padding-top: 5%;
+    padding-bottom: 5%;
   }
 
   .main-nos {
@@ -639,21 +651,29 @@
   .main-imgsol {
     padding-top: 2%;
   }
+  /*pie*/
   .pie {
-    background-color: rgba(223, 230, 233, 0.5);
+    height: 40px;
+    background-color: black;
+       
   }
+  
   .whatsapp {
-    width: 8%;
-    height: 8%;
+    width: 40px;
+    height: 40px;
   }
   #contacto {
-    color: #d88922;
+    color: white;
+    font-size: 10px;
+    padding-top: 10px;
+    padding-left: 5px;
   }
-  .email {
-    width: 8%;
-    height: 8%;
+  /*.email {
+    width: 5%;
+    height: 5%;
     padding-left: 2%;
     padding-right: 2%;
+  }*/
   }
   /*pagina promociones*/
   .p-img {
@@ -767,7 +787,7 @@
     border: solid 2px #d88922;
     padding: 8%;
   }
-}
+
 /*-----------------------------XL------------------------*/
 @media (min-width: 1200px) {
   #tlogo {
@@ -802,6 +822,7 @@
   /* pajina nosotros*/
   .nosotros {
     padding-top: 5%;
+    padding-bottom: 5%;
   }
 
   .main-nos {
@@ -884,22 +905,29 @@
     padding-top: 4%;
     padding-right: 4%;
   }
+  /*pie*/
   .pie {
-    background-color: rgba(223, 230, 233, 0.5);
+    height: 40px;
+    background-color: black;
+       
   }
+  
   .whatsapp {
-    width: 7%;
-    height: 7%;
+    width: 40px;
+    height: 40px;
   }
   #contacto {
-    color: #d88922;
+    color: white;
+    font-size: 10px;
+    padding-top: 10px;
+    padding-left: 5px;
   }
-  .email {
-    width: 7.5%;
-    height: 7.5%;
+  /*.email {
+    width: 5%;
+    height: 5%;
     padding-left: 2%;
     padding-right: 2%;
-  }
+  }*/
   /*pagina promociones*/
   .p-img {
     padding-left: 30%;
