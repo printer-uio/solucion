@@ -5,7 +5,7 @@
 }
 /*margen de los items*/
 .navbar .nav {
-  margin-left: 50%;
+  margin-left: 40%;
 }
 /*color y tamano de las letras de la navegacion*/
 .navbar .nav-item .nav-link {
@@ -14,16 +14,17 @@
 }
 /*ancho de los div de los items de la navegacion y centrados*/
 .navbar .nav-item {
-  width: 110px;
+  width: 125px;
   text-align: center;
 }
+
 /*efecto de items*/
 .navbar .nav-item:hover {
   border: solid 2px #d88922;
   border-radius: 20px;
 }
 /*inicio responsive*/
-/*col*/
+/*-------------col-----------------*/
 
 @media (max-width: 575px) {
   /*Logo de la navegacion*/
@@ -54,79 +55,111 @@
     top: 30%;
     left: 9%;
   }
-  /*  nosotros*/
+  /* gastos*/
   .nosotros {
     padding-top: 20%;
+    padding-bottom: 10%;
   }
 
   .main-nos {
     text-align: justify;
   }
   #nos {
-    font-size: 20px;
+    font-size: 15px;
+    color: black;
+    text-align: left;
+    padding-left: 1px;
+    font-weight: 600;
+  }
+  #nos-text{
+    text-align:left;
+    padding-left: 1px;
+    font-size: 13px;
+  }
+  .descubre1{
+    border: solid 2px #d88922;
+    border-radius: 20px;
+    font-size: 12px;
     color: #d88922;
-    text-align: center;
+    
   }
 
   .nos-img {
-    width: 100%;
-    height: 100%;
-    border: solid 2px #f9f9f9;
-    border-radius: 8%;
+    width: 110%;
+    height: 90%;
+    /*border: solid 2px #f9f9f9;*/
+    /*border-radius: 8%;*/
   }
   .main-img {
     padding-top: 3%;
     padding-bottom: 5%;
   }
-  /*por que*/
+  /*conservar*/
   .porque {
-    padding-top: 5%;
-    padding-bottom: 5%;
-    background-color: rgba(223, 230, 233, 0.5);
+    padding-top: 15%;
+    padding-bottom: 15%;
+    background-color: black;
   }
   .main-porque {
     text-align: center;
   }
   #por {
     font-size: 20px;
-    color: #d88922;
+    color: white;
   }
-  /*soluciones*/
+  #por-text{
+    color:white;
+    font-size: 11px;
+  }
+  /*documentos*/
   .soluciones {
     padding-top: 10%;
     padding-bottom: 10%;
+    padding-right: 10%;
+    
   }
   .main-sol {
     text-align: justify;
+    
   }
   #sol {
     font-size: 20px;
-    color: #d88922;
-    text-align: center;
+    color:black;
+    text-align: left;
   }
   .sol-img {
-    width: 100%;
+    width: 120%;
     height: 100%;
-    border: solid 2px #f9f9f9;
-    border-radius: 8%;
+    
+    /*border: solid 2px #f9f9f9;
+    border-radius: 8%;*/
   }
+  #sol-text{
+    font-size: 12px;
+  }
+  /*pie*/
   .pie {
-    background-color: rgba(223, 230, 233, 0.5);
-    padding-top: 4%;
+    height: 40px;
+    background-color: black;
+       
   }
+  
   .whatsapp {
-    width: 12%;
-    height: 12%;
+    width: 40px;
+    height: 40px;
   }
   #contacto {
-    color: #d88922;
+    color: white;
+    font-size: 10px;
+    padding-top: 10px;
+    padding-left: 5px;
   }
-  .email {
+  /*.email {
     width: 5%;
     height: 5%;
     padding-left: 2%;
     padding-right: 2%;
-  }
+  }*/
   /*pagina promociones*/
   .p-img {
     padding-left: 1%;
@@ -258,7 +291,7 @@
     padding: 8%;
   }
 }
-/*sm*/
+/*-------------SM-------------------------------*/
 @media (min-width: 576px) and (max-width: 767px) {
   #tlogo {
     width: 60%;
@@ -273,9 +306,9 @@
     font-size: 10px;
   }
   .descubre {
-    top: 75%;
+    top: 80%;
     left: 9%;
-    font-size: 15px;
+    font-size: 13px;
   }
   .present {
     width: 100%;
@@ -297,53 +330,69 @@
     text-align: justify;
   }
   #nos {
-    font-size: 30px;
+    font-size: 28px;
+    color: black;
+  }
+  .descubre1{
+    border: solid 2px #d88922;
+    border-radius: 20px;
+    font-size: 12px;
     color: #d88922;
+    
   }
 
   .nos-img {
     width: 100%;
-    height: 120%;
-    border: solid 2px #f9f9f9;
-    border-radius: 8%;
+    height: 100%;
+    /*border: solid 2px #f9f9f9;
+    border-radius: 8%;*/
   }
   .main-img {
     padding-top: 0%;
   }
-  /*pagina por que*/
+  /*conservar*/
   .porque {
-    padding-top: 5%;
-    padding-bottom: 5%;
-    background-color: rgba(223, 230, 233, 0.5);
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: black;
   }
   .main-porque {
     text-align: center;
   }
   #por {
-    font-size: 30px;
-    color: #d88922;
+    font-size: 35px;
+    color: white;
   }
-  /*soluciones*/
+  #por-text{
+    color:white;
+    font-size: 16px;
+  }
+  /*documentos*/
   .soluciones {
     padding-top: 6%;
     padding-bottom: 10%;
+    padding-left: 5%;
+    
   }
 
   #sol {
-    font-size: 30px;
-    color: #d88922;
-    text-align: center;
+    font-size: 35px;
+    color: black;
+    text-align: left;
   }
   .sol-img {
     width: 100%;
     height: 100%;
-    border: solid 2px #f9f9f9;
-    border-radius: 8%;
+    /*border: solid 2px #f9f9f9;
+    border-radius: 8%;*/
   }
   .main-sol {
     text-align: justify;
     padding-top: 4%;
     padding-right: 4%;
+  }
+  #sol-text{
+    font-size: 20px;
   }
   .pie {
     background-color: rgba(223, 230, 233, 0.5);
@@ -475,7 +524,7 @@
     padding: 8%;
   }
 }
-/*md-lg*/
+/*-------------------md-lg--------------------*/
 @media (min-width: 768px) and (max-width: 1199px) {
   .navbar .nav {
     margin-left: 30%;
@@ -493,7 +542,7 @@
     font-size: 15px;
   }
   .descubre {
-    top: 75%;
+    top: 80%;
     left: 9%;
     font-size: 15px;
   }
@@ -513,53 +562,74 @@
 
   .main-nos {
     text-align: justify;
-    padding-top: 10%;
+    padding-top: 5%;
+    padding-left: 8%;
   }
   #nos {
-    font-size: 30px;
+    font-size: 35px;
+    color: black;
+    
+  }
+  #nos-text {
+    font-size: 20px;
+    padding-bottom: 2%;
+  }
+  .descubre1{
+    border: solid 2px #d88922;
+    border-radius: 20px;
+    font-size: 15px;
     color: #d88922;
+       
   }
 
   .nos-img {
     width: 100%;
-    height: 90%;
-    border: solid 2px #f9f9f9;
-    border-radius: 8%;
+    height: 100%;
+    /*border: solid 2px #f9f9f9;
+    border-radius: 8%;*/
   }
   .main-img {
     padding-top: 4%;
   }
-  /* por que*/
+  /* conservar*/
   .porque {
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
     padding-left: 8%;
     padding-right: 8%;
-    background-color: rgba(223, 230, 233, 0.5);
+    background-color:black;
   }
   .main-porque {
     text-align: center;
   }
   #por {
-    font-size: 30px;
-    color: #d88922;
+    font-size:40px;
+    color: white;
   }
-  /*soluciones*/
+  #por-text{
+    color:white;
+    font-size: 18px;
+  }
+  /*documentos*/
   .soluciones {
     padding-top: 3%;
     padding-bottom: 10%;
+    padding-left: 5%;
   }
 
   #sol {
-    font-size: 30px;
-    color: #d88922;
-    text-align: center;
+    font-size: 50px;
+    color: black;
+    text-align: left;
   }
   .sol-img {
     width: 100%;
     height: 100%;
-    border: solid 2px #f9f9f9;
-    border-radius: 8%;
+    /*border: solid 2px #f9f9f9;
+    border-radius: 8%;*/
+  }
+  #sol-text{
+    font-size: 32px;
   }
   .main-sol {
     padding-top: 7%;
@@ -698,7 +768,7 @@
     padding: 8%;
   }
 }
-/*xl*/
+/*-----------------------------XL------------------------*/
 @media (min-width: 1200px) {
   #tlogo {
     width: 70%;
@@ -716,7 +786,7 @@
     font-weight: 200;
   }
   .descubre {
-    top: 65%;
+    top: 70%;
     left: 9%;
     font-size: 15px;
   }
@@ -736,7 +806,9 @@
 
   .main-nos {
     text-align: justify;
-    padding-top: 10%;
+    padding-top: 5%;
+    padding-left: 10%;
+    
   }
   #nos {
     font-size: 40px;
@@ -744,55 +816,68 @@
   }
   #nos-text {
     font-size: 20px;
+    padding-bottom: 2%;
+  }
+  .descubre1{
+    border: solid 2px #d88922;
+    border-radius: 20px;
+    font-size: 15px;
+    color: #d88922;
+       
   }
 
   .nos-img {
     width: 100%;
-    height: 90%;
-    border: solid 2px #f9f9f9;
-    border-radius: 8%;
+    height: 100%;
+    
+    /*border: solid 2px #f9f9f9;
+    border-radius: 8%;*/
   }
   .main-img {
-    padding-top: 4%;
-    padding-right: 4%;
+    /*padding-top: 4%;*/
+    top: 2%;
+    right: 8%;
   }
-  /*pagina por que*/
+  /*conservar*/
   .porque {
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
     padding-left: 15%;
     padding-right: 15%;
-    background-color: rgba(223, 230, 233, 0.5);
+    background-color: black;
   }
   .main-porque {
     text-align: center;
   }
   #por {
-    font-size: 30px;
-    color: #d88922;
+    font-size: 50px;
+    color: white;
   }
   #por-text {
-    font-size: 20px;
+    font-size: 25px;
+    color:white;
+    padding-bottom: 5%;
   }
-  /*soluciones*/
+  /*documentos*/
   .soluciones {
     padding-top: 3%;
     padding-bottom: 10%;
+    padding-left: 8%;
   }
 
   #sol {
-    font-size: 40px;
-    color: #d88922;
-    text-align: center;
+    font-size: 72px;
+    color: black;
+    text-align: left;
   }
   #sol-text {
-    font-size: 20px;
+    font-size: 45px;
   }
   .sol-img {
     width: 100%;
     height: 100%;
-    border: solid 2px #f9f9f9;
-    border-radius: 8%;
+    /*border: solid 2px #f9f9f9;
+    border-radius: 8%;*/
   }
   .main-sol {
     text-align: justify;

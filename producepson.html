@@ -1,113 +1,107 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Soluciones</title>
     <!--enlasamos el archivo de boststrap y el CSS personal -->
-    <link rel="stylesheet" type= "text/css "href="css/bootstrap.css">
-    <link rel="stylesheet" href="csspers/main.css">
+    <link rel="stylesheet" type="text/css " href="css/bootstrap.css" />
+    <link rel="stylesheet" href="csspers/main.css" />
     <!-- Scroll -->
     <script src="js/smooth-scroll.min.js"></script>
     <script>
       smoothScroll.init({
-      selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
-      selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
-      speed: 2000, // Integer. How fast to complete the scroll in milliseconds
-      easing: 'easeInOutCubic', // Easing pattern to use
-      offset: 40, // Integer. How far to offset the scrolling anchor location in pixels
-      callback: function ( anchor, toggle ) {} // Function to run after scrolling
+        selector: "[data-scroll]", // Selector for links (must be a class, ID, data attribute, or element tag)
+        selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
+        speed: 2000, // Integer. How fast to complete the scroll in milliseconds
+        easing: "easeInOutCubic", // Easing pattern to use
+        offset: 40, // Integer. How far to offset the scrolling anchor location in pixels
+        callback: function (anchor, toggle) {}, // Function to run after scrolling
       });
     </script>
-    
+
     <!--para poner el icono en el titulo-->
-    <link rel="shortcut icon" href="img/printer2.ico" type="image/x-icon">
-
-</head>
-<body>
+    <link rel="shortcut icon" href="img/printer2.ico" type="image/x-icon" />
+  </head>
+  <body>
     <div class="container-fluid">
-        <div class="row">
-            <div class="col">
-                 <!--navegacion para que la navegacion este fija fixed-top-->
-                <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-                    <div class="container-fluid">
-                        <a class="navbar-brand "><img id="tlogo"src= "img/logo.png"></a>
-                    
-                        <button class="navbar-toggler cuadrado" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style=" border: solid 1px blue;">
-                        <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="nav navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="index.html">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" data-scroll href="#sec2">Nosotros</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="soluciones.html" >Soluciones</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="productos.html">Productos</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" data-scroll href="#sec3">Contacto</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-                
+      <div class="row">
+        <div class="col">
+          <!--navegacion para que la navegacion este fija fixed-top-->
+          <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand"><img id="tlogo" src="img/logo.png" /></a>
 
+              <button
+                class="navbar-toggler cuadrado"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                style="border: solid 1px blue"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="nav navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-scroll href="#sec2">Empresa</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="soluciones.html">Soluciones</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="promociones.html">Promociones</a>
+                  </li>
+                </ul>
+              </div>
             </div>
+          </nav>
         </div>
-    </div>    
+      </div>
+    </div>
     <div class="container-fluid">
-        <!--titulo y primeras palabras-->
-        <div class="row" id="pp-inicio">
-            <div class="col">
-                <h3 class="pro-titulo">
-                    IMPRESORAS EPSON
-                </h3>
-            </div>            
-        </div> 
-    </div>       
+      <!--titulo y primeras palabras-->
+      <div class="row" id="pp-inicio">
+        <div class="col">
+          <h3 class="pro-titulo">IMPRESORAS EPSON</h3>
+        </div>
+      </div>
+    </div>
     <div class="container">
-            <!--dibujos de inicio-->
-        <div class="row pphp-img-main">
-            <div class="col-12 col-sm-6">
-                <div class="card" >
-                    <img src="img/impresoras/epsonl4150.png" alt="">
-                    <div class="card-body pphp-img-boton">
-                        <a class="btn-cotizar" href="">COTIZAR</a>
-                    </div>
-                </div>
+      <!--dibujos de inicio-->
+      <div class="row pphp-img-main">
+        <div class="col-12 col-sm-6">
+          <div class="card">
+            <img src="img/impresoras/epsonl4150.png" alt="" />
+            <div class="card-body pphp-img-boton">
+              <a class="btn-cotizar" href="">COTIZAR</a>
             </div>
-            <div class="col-12 col-sm-6">
-                <div class="card">
-                    <img src="img/impresoras/epsonl4160.png" alt="">
-                    <div class="card-body pphp-img-boton">
-                        <a class="btn-cotizar" href="" >COTIZAR</a>
-                    </div>
-                </div>
-            </div>
-                        
+          </div>
         </div>
-            
-
-    </div>    
-       
-        
-        
-  
-
-
-
+        <div class="col-12 col-sm-6">
+          <div class="card">
+            <img src="img/impresoras/epsonl4160.png" alt="" />
+            <div class="card-body pphp-img-boton">
+              <a class="btn-cotizar" href="">COTIZAR</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!--son los archivos que se necesitan para que funcione bootstrap sin internet-->
     <script src="js/jquery-3.5.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-</body>
-</html>  
+  </body>
+</html>
