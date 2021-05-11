@@ -166,10 +166,15 @@
     padding-right: 2%;
   }*/
   /*pagina promociones*/
+  .promo-titulo {
+    background-color: rgba(223, 230, 233, 1);
+    margin-top: 20%;
+    text-align: center;
+    
+  }
   
   .p-img {
-    
-    
+        
     height: 400px;
     
     
@@ -186,11 +191,8 @@
     width: 240px;
     height: 290px;
   }
-  .pro-titulo {
-    background-color: rgba(223, 230, 233, 1);
-    margin-top: 20%;
-    
-  }
+  
+  
   
   /*pagina soluciones*/
 
@@ -259,13 +261,14 @@
     background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
   }
   /*pagina productos*/
-  .pro-titulo {
+  .produc-titulo {
     background-color: rgba(223, 230, 233, 1);
     text-align: center;
     color: #aa1e28;
-    font-size: 22px;
-    padding-top: 20%;
+    font-size: 12px;
+    padding-top: 5%;
     padding-bottom: 5%;
+    margin-top: 20%;
   }
   .pro-letraini {
     padding-top: 2%;
@@ -436,8 +439,12 @@
     padding-bottom: 1%;
     
   }
-  .pro-titulo{
+  .promo-titulo{
+    
+    background-color: rgba(223, 230, 233, 1);
     margin-top: 15%;
+    text-align: center;
+    font-size: 30px;
   }
   /*pagina soluciones*/
 
@@ -502,13 +509,14 @@
     background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
   }
   /*pagina productos*/
-  .pro-titulo {
+  .produc-titulo {
     background-color: rgba(223, 230, 233, 1);
     text-align: center;
     color: #aa1e28;
-    font-size: 22px;
-    padding-top: 20%;
-    padding-bottom: 5%;
+    font-size: 25px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-top: 10%;
   }
   .pro-letraini {
     padding-top: 2%;
@@ -692,17 +700,21 @@
     padding-top: 5%;
     padding-bottom: 10%;
   }
-  .pro-titulo{
-    margin-top: 5%;
+  .promo-titulo{
+    background-color: rgba(223, 230, 233, 1);
+    margin-top: 8%;
+    text-align: center;
+    font-size: 35px;
   }
   /*pagina productos*/
-  .pro-titulo {
+  .produc-titulo {
     background-color: rgba(223, 230, 233, 1);
     text-align: center;
     color: #aa1e28;
-    font-size: 22px;
+    font-size: 30px;
     padding-top: 8%;
     padding-bottom: 2%;
+    margin-top: 4%;
   }
   .pro-letraini {
     padding-top: 2%;
@@ -950,8 +962,11 @@
    
   }
   
-  .pro-titulo{
-    margin-top: 1%;
+  .promo-titulo{
+    background-color: rgba(223, 230, 233, 1);
+    margin-top: 5%;
+    text-align: center;
+    font-size: 40px;
   }
 
   .carousel-inner {
@@ -1025,12 +1040,12 @@
     background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
   }
   /*pagina productos*/
-  .pro-titulo {
+  .produc-titulo {
     background-color: rgba(223, 230, 233, 1);
     text-align: center;
     color: #aa1e28;
-    font-size: 30px;
-    padding-top: 8%;
+    font-size: 40px;
+    padding-top: 6%;
     padding-bottom: 2%;
   }
   .pro-letraini {
