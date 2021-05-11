@@ -166,27 +166,32 @@
     padding-right: 2%;
   }*/
   /*pagina promociones*/
+  
   .p-img {
-    padding-left: 1%;
-    padding-right: 5%;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    
+    
+    height: 400px;
+    
+    
   }
+  
   .carousel-inner {
-    height: 390px;
-    width: 350px;
+    height: 360px;
+    width: 220px;
+    padding-top: 20px;
+    
+    
   }
   .carousel-inner img {
-    max-width: 350px;
-    max-height: 700px;
+    width: 240px;
+    height: 290px;
   }
-  .promo-titulo {
+  .pro-titulo {
     background-color: rgba(223, 230, 233, 1);
+    margin-top: 20%;
+    
   }
-  .promo-letra {
-    text-align: center;
-    color: #d88922;
-  }
+  
   /*pagina soluciones*/
 
   .sol-titulo {
@@ -194,11 +199,12 @@
     text-align: center;
     color: black;
     font-size: 22px;
-    padding-top: 20%;
+    padding-top: 5%;
+    margin-top: 20%;
     padding-bottom: 5%;
   }
   .sol-letraini {
-    padding-top: 2%;
+    padding-top: 5%;
     text-align: center;
   }
   .sol-img-bg {
@@ -426,8 +432,12 @@
   .p-img {
     padding-left: 20%;
     padding-right: 20%;
-    padding-top: 5%;
-    padding-bottom: 10%;
+    padding-top: 10%;
+    padding-bottom: 1%;
+    
+  }
+  .pro-titulo{
+    margin-top: 15%;
   }
   /*pagina soluciones*/
 
@@ -682,6 +692,9 @@
     padding-top: 5%;
     padding-bottom: 10%;
   }
+  .pro-titulo{
+    margin-top: 5%;
+  }
   /*pagina productos*/
   .pro-titulo {
     background-color: rgba(223, 230, 233, 1);
@@ -932,8 +945,13 @@
   .p-img {
     padding-left: 30%;
     padding-right: 30%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+   
+  }
+  
+  .pro-titulo{
+    margin-top: 1%;
   }
 
   .carousel-inner {
