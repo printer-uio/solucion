@@ -350,6 +350,16 @@
     border: solid 2px #d88922;
     padding: 8%;
   }
+  /*pagina contacto*/
+  .contacto-titulo{
+    font-family: 'Robot Light', sans-serif;
+    color: #082742;
+    margin-top: 15%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+    }
 }
 /*-------------SM-------------------------------*/
 @media (min-width: 576px) and (max-width: 767px) {
@@ -1339,6 +1349,19 @@
     border: solid 2px #d88922;
     padding: 8%;
   }
+  /*pagina contacto*/
+  .form-contact{
+  padding-left: 37%;
+  }
+  .contacto-titulo{
+  font-family: 'Robot Light', sans-serif;
+  color: #082742;
+  margin-top: 8%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 50px;
+  }
 }
 
 /*boton descubre mas*/
@@ -1349,13 +1372,5 @@
   color: #d88922;
   position: absolute;
 }
-/*pajina contacto*/
-.contacto-titulo{
-  font-family: 'Robot Light', sans-serif;
-  color: #082742;
-  margin-top: 5%;
-  padding-top: 20px;
-  padding-bottom: 10px;
-  text-align: center;
-  font-size: 50px;
-}
+
+
