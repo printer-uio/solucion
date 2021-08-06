@@ -363,7 +363,8 @@
     font-size: 15px;
   }
   #solucion {
-    font-size: 10px;
+    
+    font-size: 12px;
   }
   .descubre {
     top: 80%;
@@ -390,8 +391,13 @@
     text-align: justify;
   }
   #nos {
+    font-family: 'Roboto Light', sans-serif;
     font-size: 28px;
-    color: black;
+    color: #082742;
+  }
+  #nos-text {
+    font-family: 'Roboto Light', sans-serif;
+    color: #676767;
   }
   .descubre1{
     border: solid 2px #d88922;
@@ -404,14 +410,14 @@
   .nos-img {
     width: 100%;
     height: 100%;
-    /*border: solid 2px #f9f9f9;
-    border-radius: 8%;*/
+    
   }
   .main-img {
     padding-top: 0%;
   }
   /*conservar*/
   .porque {
+
     padding-top: 10%;
     padding-bottom: 10%;
     background-color: black;
@@ -420,24 +426,28 @@
     text-align: center;
   }
   #por {
+    font-family: 'Roboto Light', sans-serif;
     font-size: 35px;
     color: white;
   }
   #por-text{
+    font-family: 'Roboto Light', sans-serif;
     color:white;
-    font-size: 16px;
+    font-size: 14px;
   }
   /*documentos*/
   .soluciones {
     padding-top: 6%;
     padding-bottom: 10%;
     padding-left: 5%;
+    text-align: center;
     
   }
 
   #sol {
+    font-family: 'Roboto Light', sans-serif;
     font-size: 35px;
-    color: black;
+    color: #082742;
     text-align: left;
   }
   .sol-img {
@@ -452,37 +462,84 @@
     padding-right: 4%;
   }
   #sol-text{
-    font-size: 20px;
+    font-family: 'Roboto Light', sans-serif;
+    color: #676767;
+    font-size: 18px;
+    text-align: center;
+  }
+  /*info*/
+  .main-infopro ul{
+    list-style: none;
+    font-size: 14px;
+    font-family: 'Roboto Light', sans-serif;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    
+    
+  }
+  .info{
+    background-color: #fafafa;
+  }
+  .info-img{
+    
+    padding-top: 5%;
+    padding-left: 17%;
+    width: 80px;
+  }
+  .info-titulo{
+    font-family: 'Roboto Normal',sans-serif;
+    font-size: 18px;
+    color: #676767;
+  }
+  .info-text{
+    
+    font-size: 12px;
+    color:#676767;
+    text-decoration: none;
+  }
+  .produin{
+   padding-left: 10%; 
+  }
+  .soluin{
+    padding-left: 10%;
+  }
+  .empre{
+    padding-left: 17%;
+  }
+  .contain{
+    padding-left: 9%;
+  }
+  
+  .main-infoimg{
+    padding-top: 2%;
   }
   /*pie*/
   .pie {
-    height: 40px;
-    background-color: black;
+    padding-top: 2%;
+    padding-left: 5%;
+    background-color:#ececec;
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 14px;    
        
   }
-  
-  .whatsapp {
-    width: 40px;
-    height: 40px;
+  .letra-pie{
+    padding-top: 2%;
   }
-  #contacto {
-    color: white;
-    font-size: 10px;
-    padding-top: 10px;
-    padding-left: 5px;
+  .logo1{
+    
+    width: 25px;
   }
-  /*.email {
-    width: 5%;
-    height: 5%;
-    padding-left: 2%;
-    padding-right: 2%;
-  }*/
-  /*pagina promociones*/
+  .logo2{
+    width: 45px;
+  }
+  .logo3{
+    width: 33px;
+  }
   .promo-titulo{
     margin-top: 15%;
-    background-color: rgba(223, 230, 233, 1);
+    font-family: 'Roboto Light', sans-serif;
     text-align: center;
-    color: black;
+    color: #082742;
     padding-top: 5%;
     
     padding-bottom: 5%;
@@ -499,92 +556,105 @@
   /*pagina soluciones*/
 
   .sol-titulo {
-    background-color: rgba(223, 230, 233, 1);
+    font-family: 'Roboto Light', sans-serif;
     text-align: center;
-    color: black;
+    color: #082742;
     font-size: 22px;
     padding-top: 15%;
     padding-bottom: 5%;
   }
   .sol-letraini {
+    font-family: 'Roboto Light', sans-serif;
+    color: #676767;
     padding-top: 2%;
     text-align: center;
   }
   /*tarjetas*/
-  .ps-card {
-    padding-top: 5%;
-    padding-bottom: 5%;
-    height: 100%;
+  .pp-img-main{
+    margin-bottom: 10%;
   }
-  .pp-img-boton {
-    border: solid 1px #353434;
+  .ps-card {
+    border: none;
+   
+  }
+  .ps-img-alqui{
+   height: 160px;
+  }
+  .ps-img-esca{
+    height: 160px;
+  }
+  .ps-img-foto{
+    height: 160px;
+  }
+  
+  .b-alquiler{
+    border: solid 2px #d88922;
+    border-radius: 20px;
+    font-size: 10px;
+    color: #d88922;
+    width: 60%;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-bottom: 5%;
     text-align: center;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    background-color: rgba(223, 230, 233, 0.3);
-    margin-left: 8%;
-    margin-right: 8%;
   }
 
-  .ps-img-alqui {
-    height: 170px;
-  }
-  .ps-img-esca {
-    height: 170px;
-  }
-  /* texto de las soluciones*/
-  .ser-alqui {
-    background-color: rgba(223, 230, 233, 0.3);
-    padding-top: 4%;
-  }
-  .alqui-titu {
-    text-align: center;
-    font-size: 18px;
-    color: black;
-    background-color: rgba(223, 230, 233, 0.8);
-    padding: 2%;
-  }
-  .alqui-text {
-    text-align: justify;
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-  #ps-sec1 {
-    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
-  }
-  #ps-sec2 {
-    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
-  }
-  #ps-sec3 {
-    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
-  }
-  /*pagina productos*/
+ /*pajina servicio de alquiler */
+ .serv-alquiler{
+   padding-left: 2%;
+   padding-right: 2%;
+ }
+ .alqui-titulo{
+   padding-top: 15%;
+   font-family: 'Roboto Light', sans-serif;
+   color: #082742;
+   text-align: center;
+   font-size: 40px;
+ }
+ .alqui-subtitulo{
+  font-family: 'Roboto Light', sans-serif;
+  color: #d88922;
+  padding-left: 5%;
+  font-size: 25px;
+ }
+ .alqui-texto{
+  font-family: 'Roboto Light', sans-serif;
+  color: #676767;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 13px;
+ }
+  
+  /*pajina productos*/
   .produc-titulo {
-    background-color: rgba(223, 230, 233, 1);
+    font-family: 'Roboto',sans-serif;
     text-align: center;
-    color: #aa1e28;
+    color: #082742;
     font-size: 28px;
     padding-top: 8%;
-    padding-bottom: 8%;
+    padding-bottom: 6%;
     margin-top: 10%;
   }
   .pro-letraini {
+    font-family: 'Roboto',sans-serif;
+    color: #676767;
     padding-top: 2%;
+    padding-bottom: 4%;
     text-align: justify;
     padding-left: 8%;
     padding-right: 8%;
   }
   /*tarjetas iniciales*/
-  .pp-img-boton {
-    border: solid 1px #353434;
-    text-align: center;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    background-color: rgba(223, 230, 233, 0.3);
-    margin-left: 8%;
-    margin-right: 8%;
+  .ps-img-hp{
+    height: 160px;
   }
-  /*pagina productos hp*/
+  .ps-img-canon{
+    height: 160px;
+  }
+  .ps-img-epson{
+    height: 160px;
+  }
+  /*pajina productos hp*/
   .pphp-img-main {
     margin: 5%;
   }
@@ -602,6 +672,7 @@
     border: solid 2px #d88922;
     padding: 8%;
   }
+  
 }
 /*-------------------md-lg--------------------*/
 @media (min-width: 768px) and (max-width: 1199px) {
@@ -646,11 +717,14 @@
     padding-left: 8%;
   }
   #nos {
+    font-family: 'Roboto Light',sans-serif;
     font-size: 35px;
-    color: black;
+    color: #082742;
     
   }
   #nos-text {
+    font-family: 'Roboto Light',sans-serif;
+    color: #676767;
     font-size: 20px;
     padding-bottom: 2%;
   }
@@ -665,19 +739,19 @@
   .nos-img {
     width: 100%;
     height: 100%;
-    /*border: solid 2px #f9f9f9;
-    border-radius: 8%;*/
+    
   }
   .main-img {
     padding-top: 4%;
   }
   /* conservar*/
   .porque {
+    font-family: 'Roboto Light',sans-serif;
     padding-top: 10%;
     padding-bottom: 10%;
     padding-left: 8%;
     padding-right: 8%;
-    background-color:black;
+    background-color:#082742;
   }
   .main-porque {
     text-align: center;
@@ -692,14 +766,16 @@
   }
   /*documentos*/
   .soluciones {
+    text-align: center;
     padding-top: 3%;
     padding-bottom: 10%;
     padding-left: 5%;
   }
 
   #sol {
+    font-family: 'Roboto Light',sans-serif;
     font-size: 50px;
-    color: black;
+    color: #082742;
     text-align: left;
   }
   .sol-img {
@@ -709,7 +785,10 @@
     border-radius: 8%;*/
   }
   #sol-text{
-    font-size: 32px;
+    font-family: 'Roboto Light',sans-serif;
+    color: #676767;
+    font-size: 28px;
+    text-align: center;
   }
   .main-sol {
     padding-top: 7%;
@@ -719,29 +798,67 @@
   .main-imgsol {
     padding-top: 2%;
   }
-  /*pie*/
-  .pie {
-    height: 40px;
-    background-color: black;
-       
+  /*info*/
+  .main-infopro ul{
+    list-style: none;
+    
+    font-family: 'Roboto Light', sans-serif;
+    padding-top: 15%;
+    padding-bottom: 10%;
+    
+    
+  }
+  .info{
+    background-color: #fafafa;
+  }
+  .info-img{
+    
+    padding-top: 2%;
+    padding-left: 17%;
+    width: 150px;
+  }
+  .info-titulo{
+    font-family: 'Roboto Normal',sans-serif;
+    font-size: 18px;
+    color: #676767;
+  }
+  .info-text{
+    
+    font-size: 12px;
+    color:#676767;
+    text-decoration: none;
   }
   
-  .whatsapp {
-    width: 40px;
-    height: 40px;
+  .contain{
+   
+    font-size: 12px;
   }
-  #contacto {
-    color: white;
-    font-size: 10px;
-    padding-top: 10px;
-    padding-left: 5px;
+  
+  .main-infoimg{
+    padding-top: 2%;
   }
-  /*.email {
-    width: 5%;
-    height: 5%;
-    padding-left: 2%;
-    padding-right: 2%;
-  }*/
+  /*pie*/
+  .pie {
+    padding-top: 2%;
+    padding-left: 5%;
+    background-color:#ececec;
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 18px;    
+       
+  }
+  .letra-pie{
+    padding-top: 2%;
+  }
+  .logo1{
+    
+    width: 30px;
+  }
+  .logo2{
+    width: 50px;
+  }
+  .logo3{
+    width: 38px;
+  }
   
   /*pagina promociones*/
   .p-img {
@@ -751,30 +868,59 @@
     padding-bottom: 10%;
   }
   .promo-titulo{
-    background-color: rgba(223, 230, 233, 1);
+    font-family: 'Roboto Light', sans-serif;
     margin-top: 10%;
     text-align: center;
     font-size: 35px;
-    color: black;
+    color: #082742;
     padding-top: 2%;
     
     padding-bottom: 2%;
   }
+  /*pajina servicio de alquiler */
+ .serv-alquiler{
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.alqui-titulo{
+  padding-top: 15%;
+  font-family: 'Roboto Light', sans-serif;
+  color: #082742;
+  text-align: center;
+  font-size: 40px;
+}
+.alqui-subtitulo{
+ font-family: 'Roboto Light', sans-serif;
+ color: #d88922;
+ padding-left: 5%;
+ font-size: 30px;
+}
+.alqui-texto{
+ font-family: 'Roboto Light', sans-serif;
+ color: #676767;
+ padding-left: 5%;
+ padding-right: 5%;
+ font-size: 20px;
+}
   /*pagina productos*/
   .produc-titulo {
-    background-color: rgba(223, 230, 233, 1);
+    font-family: 'Roboto Light', sans-serif;
     text-align: center;
-    color: #aa1e28;
+    color: #082742;
     font-size: 30px;
     padding-top: 8%;
     padding-bottom: 2%;
     margin-top: 4%;
   }
   .pro-letraini {
+    font-family: 'Roboto Light', sans-serif;
+    text-align: center;
+    color: #676767;
+    font-size: 20px;
     padding-top: 2%;
-    text-align: justify;
     padding-left: 8%;
     padding-right: 8%;
+    padding-bottom: 2%;
   }
   /*tarjetas iniciales*/
   .pp-img-boton {
@@ -785,69 +931,56 @@
     background-color: rgba(223, 230, 233, 0.3);
     margin-left: 8%;
     margin-right: 8%;
+    
   }
   /*pagina soluciones*/
 
   .sol-titulo {
-    background-color: rgba(223, 230, 233, 1);
+    font-family: 'Roboto Light', sans-serif;
     text-align: center;
-    color: black;
-    font-size: 22px;
+    color: #082742;
+    font-size: 30px;
     padding-top: 10%;
     padding-bottom: 5%;
   }
   .sol-letraini {
+    font-family: 'Roboto Light', sans-serif;
+    color: #676767;
+    font-size: 20px;
     padding-top: 2%;
     text-align: center;
   }
   /*tarjetas*/
+  .pp-img-main{
+    margin-bottom: 10%;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
   .ps-card {
-    padding-top: 5%;
-    padding-bottom: 5%;
-    height: 100%;
+    border: none;
+   
   }
-  .pp-img-boton {
-    border: solid 1px #353434;
+  .ps-img-alqui{
+   height: 220px;
+  }
+  .ps-img-esca{
+    height: 220px;
+  }
+  .ps-img-foto{
+    height: 220px;
+  }
+  .b-alquiler{
+    border: solid 2px #d88922;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #d88922;
+    width: 60%;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-bottom: 5%;
     text-align: center;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    background-color: rgba(223, 230, 233, 0.3);
-    margin-left: 8%;
-    margin-right: 8%;
   }
-
-  .ps-img-alqui {
-    height: 230px;
-  }
-  .ps-img-esca {
-    height: 230px;
-  }
-  /* texto de las soluciones*/
-  .ser-alqui {
-    background-color: rgba(223, 230, 233, 0.3);
-    padding-top: 4%;
-  }
-  .alqui-titu {
-    text-align: center;
-    font-size: 18px;
-    color: black;
-    background-color: rgba(223, 230, 233, 0.8);
-    padding: 2%;
-  }
-  .alqui-text {
-    text-align: justify;
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-  #ps-sec1 {
-    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
-  }
-  #ps-sec2 {
-    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
-  }
-  #ps-sec3 {
-    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
-  }
+  
   /*pagina productos hp*/
   .pphp-img-main {
     margin: 5%;
@@ -1065,6 +1198,7 @@
   
   .promo-titulo{
     font-family: 'Robot Light', sans-serif;
+    color: #082742;
     margin-top: 5%;
     padding-top: 20px;
     padding-bottom: 10px;
@@ -1215,4 +1349,13 @@
   color: #d88922;
   position: absolute;
 }
-
+/*pajina contacto*/
+.contacto-titulo{
+  font-family: 'Robot Light', sans-serif;
+  color: #082742;
+  margin-top: 5%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 50px;
+}
