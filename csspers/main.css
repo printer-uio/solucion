@@ -351,15 +351,10 @@
     padding: 8%;
   }
   /*pagina contacto*/
-  .contacto-titulo{
-    font-family: 'Robot Light', sans-serif;
-    color: #082742;
-    margin-top: 15%;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    text-align: center;
-    font-size: 30px;
-    }
+  .form-contact{
+    margin-top:25%;
+  }
+ 
 }
 /*-------------SM-------------------------------*/
 @media (min-width: 576px) and (max-width: 767px) {
@@ -1351,17 +1346,9 @@
   }
   /*pagina contacto*/
   .form-contact{
-  padding-left: 37%;
+    margin-top: 5%;
   }
-  .contacto-titulo{
-  font-family: 'Robot Light', sans-serif;
-  color: #082742;
-  margin-top: 8%;
-  padding-top: 20px;
-  padding-bottom: 10px;
-  text-align: center;
-  font-size: 50px;
-  }
+  
 }
 
 /*boton descubre mas*/
